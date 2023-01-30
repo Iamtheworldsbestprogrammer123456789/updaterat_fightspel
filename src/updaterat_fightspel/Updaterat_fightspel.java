@@ -8,7 +8,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 /**
- *
+ * klass: t21E
  * @author carl.hummerhielm
  */
 public class Updaterat_fightspel {
@@ -163,7 +163,7 @@ public class Updaterat_fightspel {
         System.out.println("3. Svår");
         System.out.print("val: ");
         val = scan.nextInt();
-
+        
         switch (val) {
         case 1:
             System.out.println("""
