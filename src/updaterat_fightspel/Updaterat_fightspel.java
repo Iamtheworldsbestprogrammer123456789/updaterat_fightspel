@@ -51,6 +51,7 @@ public class Updaterat_fightspel {
         System.out.println("\n\nDu missade din attack!");
         return 0;
     }
+   
     static int spelare_attack_medium(int attack_val) {
 
         switch(attack_val) {
@@ -128,7 +129,7 @@ public class Updaterat_fightspel {
         System.out.println("\n\nDu missade din attack!");
         return 0;
     }
-
+    //slumpar ett nummer mellan en interval min till max. I detta program använder jag det för skada.
     static int RandomNummer(int min, int max) {
         Random r = new Random();
         return (r.nextInt(max-min) + min);
