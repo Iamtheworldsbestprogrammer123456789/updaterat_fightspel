@@ -172,7 +172,7 @@ public class Updaterat_fightspel {
                                1. Svag attack(ingen chans att missa, 1-30 skada)
                                2. Mellan attack(40% chans att missa, 30-50 skada)
                                3. Hård attack(70% chans att missa, 50-70 skada)
-                               4. Knockout(90% att missa och man, 100 skada""");
+                               4. Knockout(75% att missa och man, 100 skada""");
             break;
         case 2:
             System.out.println("""
